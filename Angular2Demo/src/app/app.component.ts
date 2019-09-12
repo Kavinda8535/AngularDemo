@@ -24,6 +24,10 @@ import { Component } from "@angular/core" // This is a Decorator
 
     template: `
                 <div>
+
+                    <input id='inputId' type='text' value='Tom'> <!-- Property value can change but attribute value cannot. Coz properties are define by the DOM(DOM elements is changing when text box value change by user) and Attributes define by the HTML -->
+                                                                 <!-- HTML Attribuites are button , img, span but DOM properties are disabled , scr , innerHtml (<img src ='https://cdn.pixabay.com'/> , <button [disabled]='isDisabled'> Click Me </button> ) -->
+
                     <h1>{{pageHeader}}</h1>
                     <img src ='https://cdn.pixabay.com/{{imagePath}}'/> 
                     <h2>{{'Full Name : ' + getFullName()}}</h2>
