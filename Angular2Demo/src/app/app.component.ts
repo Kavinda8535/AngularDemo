@@ -25,7 +25,14 @@ import { Component } from "@angular/core" // This is a Decorator
     template: `
                 <div>
                     <h1>{{pageHeader}}</h1>
+                    <img src ='https://cdn.pixabay.com/{{imagePath}}'/> 
+                    <h2>{{'Full Name : ' + getFullName()}}</h2>
                     <my-employee></my-employee>
+                    <button [disabled]='isDisabled'> Click Me </button> <!-- Property binding - non string data value we must use property binding -->
+                    <span bind-innerHtml = 'pageHeader'></span> <!-- canonicle Property binding -->
+                    <div> {{ badHtml }} </div>
+                    <div innerHtml>{{badHtml}}</div> <!-- Interpolation Auto sanitize Malicious Content before displaying it-->
+                    <div [innerHtml]='badHtml'>{{badHtml}}</div> <!-- Property binding Auto sanitize Malicious Content before displaying it -->
                 </div>
                 `
 })
@@ -37,4 +44,16 @@ export class AppComponent
     //age: any = 5;
 
     pageHeader: string = 'Employee Details';
+    imagePath: string = 'photo/2016/11/18/11/16/social-1834009_960_720.png';
+    isDisabled: boolean = false;
+    badHtml: string = 'Hello <script> alert("Hacked"); </script> World';
+
+    firstName: string = 'Jacklin';
+    lastName: string = 'Rolling';
+
+    getFullName(): string {
+        return this.firstName + ' ' + this.lastName;
+    }
+
+
 }
