@@ -54,3 +54,20 @@ F:\MyWork\Angular2Demo\Angular2Demo\obj\Debug\Angular2Demo.csproj.CoreCompileInp
 F:\MyWork\Angular2Demo\Angular2Demo\obj\Debug\Angular2Demo.csproj.CopyComplete
 F:\MyWork\Angular2Demo\Angular2Demo\obj\Debug\Angular2Demo.dll
 F:\MyWork\Angular2Demo\Angular2Demo\obj\Debug\Angular2Demo.pdb
+C:\Kavi stuff\My Work\AngularDemo\Angular2Demo\obj\Debug\Angular2Demo.csprojAssemblyReference.cache
+C:\Kavi stuff\My Work\AngularDemo\Angular2Demo\bin\Angular2Demo.dll.config
+C:\Kavi stuff\My Work\AngularDemo\Angular2Demo\bin\Angular2Demo.dll
+C:\Kavi stuff\My Work\AngularDemo\Angular2Demo\bin\Angular2Demo.pdb
+C:\Kavi stuff\My Work\AngularDemo\Angular2Demo\bin\roslyn\csc.exe.config
+C:\Kavi stuff\My Work\AngularDemo\Angular2Demo\bin\roslyn\csc.rsp
+C:\Kavi stuff\My Work\AngularDemo\Angular2Demo\bin\roslyn\csi.exe.config
+C:\Kavi stuff\My Work\AngularDemo\Angular2Demo\bin\roslyn\csi.rsp
+C:\Kavi stuff\My Work\AngularDemo\Angular2Demo\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Kavi stuff\My Work\AngularDemo\Angular2Demo\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Kavi stuff\My Work\AngularDemo\Angular2Demo\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Kavi stuff\My Work\AngularDemo\Angular2Demo\bin\roslyn\vbc.exe.config
+C:\Kavi stuff\My Work\AngularDemo\Angular2Demo\bin\roslyn\vbc.rsp
+C:\Kavi stuff\My Work\AngularDemo\Angular2Demo\bin\roslyn\VBCSCompiler.exe.config
+C:\Kavi stuff\My Work\AngularDemo\Angular2Demo\obj\Debug\Angular2Demo.csproj.CoreCompileInputs.cache
+C:\Kavi stuff\My Work\AngularDemo\Angular2Demo\obj\Debug\Angular2Demo.dll
+C:\Kavi stuff\My Work\AngularDemo\Angular2Demo\obj\Debug\Angular2Demo.pdb

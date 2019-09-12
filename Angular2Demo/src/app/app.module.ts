@@ -8,7 +8,7 @@ import { EmployeeComponent } from './employee/employee.component'
 //Meta Data
 @NgModule({
     imports: [BrowserModule],
-    declarations: [AppComponent, EmployeeComponent], // Registering the comonent in this Module
+    declarations: [AppComponent, EmployeeComponent], // Registering the component in this Module
     bootstrap:    [ AppComponent ] // This is the main component(Root component) that bootstrap our application...
 })
-export class AppModule { } // AppMOdile is the root module wich bootstraps and launches the angular application
+export class AppModule { } // AppMOdule is the root module wich bootstraps and launches the angular application

@@ -36,5 +36,5 @@ export class AppComponent
     //name: string = "Angular";
     //age: any = 5;
 
-    pageHeader: string = 'Employee Details';
+    pageHeader: string = 'My Employee Details';
 }

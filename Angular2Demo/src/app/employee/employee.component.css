@@ -2,10 +2,13 @@
     color: #369;
     font-family: Arial, Helvetica, sans-serif;
     font-size: large;
+    font-style: italic;
     border-collapse: collapse;
+    border-style: double;
+    border-color: orangered;
 }
 
 td {
-    border: 1px solid black;
-    border-color: black;
+    border: 1px solid orangered;
+    border-color: orangered;
 }
