@@ -14,7 +14,7 @@ var AppModule = (function () {
     function AppModule() {
     }
     return AppModule;
-}()); // AppMOdule is the root module wich bootstraps and launches the angular application
+}()); // AppMOdile is the root module wich bootstraps and launches the angular application
 AppModule = __decorate([
     core_1.NgModule({
         imports: [platform_browser_1.BrowserModule],

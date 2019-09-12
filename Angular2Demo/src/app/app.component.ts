@@ -24,8 +24,19 @@ import { Component } from "@angular/core" // This is a Decorator
 
     template: `
                 <div>
+
+                    <input id='inputId' type='text' value='Tom'> <!-- Property value can change but attribute value cannot. Coz properties are define by the DOM(DOM elements is changing when text box value change by user) and Attributes define by the HTML -->
+                                                                 <!-- HTML Attribuites are button , img, span but DOM properties are disabled , scr , innerHtml (<img src ='https://cdn.pixabay.com'/> , <button [disabled]='isDisabled'> Click Me </button> ) -->
+
                     <h1>{{pageHeader}}</h1>
+                    <img src ='https://cdn.pixabay.com/{{imagePath}}'/> 
+                    <h2>{{'Full Name : ' + getFullName()}}</h2>
                     <my-employee></my-employee>
+                    <button [disabled]='isDisabled'> Click Me </button> <!-- Property binding - non string data value we must use property binding -->
+                    <span bind-innerHtml = 'pageHeader'></span> <!-- canonicle Property binding -->
+                    <div> {{ badHtml }} </div>
+                    <div innerHtml>{{badHtml}}</div> <!-- Interpolation Auto sanitize Malicious Content before displaying it-->
+                    <div [innerHtml]='badHtml'>{{badHtml}}</div> <!-- Property binding Auto sanitize Malicious Content before displaying it -->
                 </div>
                 `
 })
@@ -36,5 +47,17 @@ export class AppComponent
     //name: string = "Angular";
     //age: any = 5;
 
-    pageHeader: string = 'My Employee Details';
+    pageHeader: string = 'Employee Details';
+    imagePath: string = 'photo/2016/11/18/11/16/social-1834009_960_720.png';
+    isDisabled: boolean = false;
+    badHtml: string = 'Hello <script> alert("Hacked"); </script> World';
+
+    firstName: string = 'Jacklin';
+    lastName: string = 'Rolling';
+
+    getFullName(): string {
+        return this.firstName + ' ' + this.lastName;
+    }
+
+
 }
